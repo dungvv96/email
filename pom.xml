@@ -12,7 +12,7 @@
 	<groupId>com.msb</groupId>
 	<artifactId>email</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>email</name>
 	<description>Demo project for Spring Boot</description>
 	<url />
@@ -39,6 +39,17 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.telegram</groupId>
+			<artifactId>telegrambots-spring-boot-starter</artifactId>
+			<version>6.7.0</version>
 		</dependency>
 
 		<!-- jasper report -->
